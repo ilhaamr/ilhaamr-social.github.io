@@ -60,3 +60,13 @@ h1 {
 .link-social a:hover{
     transform: translateY(-10px);
 }
+@media (max-width: 575px) {
+    .link-social{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2em;
+    }
+    .link-social a{
+        margin: 10px 0;
+    }
+}
